@@ -13,7 +13,7 @@ import sys
 
 #uncomment any code to test.
 
-# Create this keys and tokens in your Twitter Developer account check #readme
+# Create these keys and tokens in your Twitter Developer account check #readme
 consumer_key = "#"
 consumer_secret = "#"
 bearer_token = "#"
