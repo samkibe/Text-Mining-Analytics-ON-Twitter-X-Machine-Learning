@@ -7,13 +7,16 @@ import numpy as np
 from twarc_csv import CSVConverter
 import sys
 
+#uncomment any code to test.
+
+# Create these keys and tokens in your Twitter Developer account check #readme
 
 
-consumer_key = "E5WnkW6QdXoxMiAhafIFcae7v "
-consumer_secret = "HkIJvaOJtQH70o5NldTEOEDjMBMmb4PQgOt5ffFtYg67WFgbhU"
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAMKsRAEAAAAAVFeFz0lmnSQK2QAdFqJR7xvRjfI%3DzOAQC4dT1CnQR7XEAybZTC1VX1gPmGyYvz4kuWHlKrUHXeNRmI"
-Access_token = "2861228630-A5Zq9I81jo2MLq5Fo9sarry9t46m3yAcIGwpXQJ"
-Access_token_secret = " pbroGrEQBZKS1qNqspxxitFeMIau17GKTq9qzvAsdbm0Z"
+consumer_key = "#"
+consumer_secret = "#"
+bearer_token = "#"
+Access_token = "#"
+Access_token_secret = "#"
 
 # Creating the authentication object
 auth = tweepy.OAuthHandler(consumer_secret, consumer_key)
