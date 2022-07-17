@@ -32,7 +32,7 @@ api = tweepy.API(auth)
 
 def create_url():
     # Replace with user ID below
-    user_id = 68382599
+    user_id = ####
     return "https://api.twitter.com/2/users/{}/tweets".format(user_id)
 
 
@@ -75,7 +75,7 @@ def main():
 
 
   
-    with open("itumbi.json", "w") as f:
+    with open("#individual.json", "w") as f:
      json.dump(json_response, f, indent=4, sort_keys=True)
 
 print("Finished crawling, saving json-file.")
