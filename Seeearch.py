@@ -4,7 +4,7 @@ import datetime
 import json
 
 # Replace your bearer token below
-client = Twarc2(bearer_token="AAAAAAAAAAAAAAAAAAAAAMKsRAEAAAAAVFeFz0lmnSQK2QAdFqJR7xvRjfI%3DzOAQC4dT1CnQR7XEAybZTC1VX1gPmGyYvz4kuWHlKrUHXeNRmI")
+client = Twarc2(bearer_token="#")
 
 
 def main():
