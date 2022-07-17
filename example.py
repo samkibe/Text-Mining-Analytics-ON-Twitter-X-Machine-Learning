@@ -6,15 +6,17 @@ import requests
 
 import json
 
+#uncomment any code to test.
+
+# Create these keys and tokens in your Twitter Developer account check #readme
 
 
 
-
-consumer_key = "E5WnkW6QdXoxMiAhafIFcae7v "
-consumer_secret = "HkIJvaOJtQH70o5NldTEOEDjMBMmb4PQgOt5ffFtYg67WFgbhU"
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAMKsRAEAAAAAVFeFz0lmnSQK2QAdFqJR7xvRjfI%3DzOAQC4dT1CnQR7XEAybZTC1VX1gPmGyYvz4kuWHlKrUHXeNRmI"
-Access_token = "2861228630-A5Zq9I81jo2MLq5Fo9sarry9t46m3yAcIGwpXQJ"
-Access_token_secret = " pbroGrEQBZKS1qNqspxxitFeMIau17GKTq9qzvAsdbm0Z"
+consumer_key = "#"
+consumer_secret = "#"
+bearer_token = "#"
+Access_token = "#"
+Access_token_secret = "#"
 
 # Creating the authentication object
 auth = tweepy.OAuthHandler(consumer_secret, consumer_key)
@@ -35,7 +37,10 @@ api = tweepy.API(auth)
 search_url = "https://api.twitter.com/2/tweets/search/recent?"
 #query_params = {  'query': '#Alshabaab (Alshabaab OR shabaab OR Jihad OR Mujahidin OR mandera OR wajir -is:retweet) OR #Garrissa ', 
 #'tweet.fields':   'author_id', }
-query_params = {  'query': '#MainaAndKingangi ( -is:retweet)', 
+
+#Use your on topic of interest or Keywords or Lexicons at #HERE
+
+query_params = {  'query': '#HERE ( -is:retweet)', 
 'tweet.fields':   'author_id', 'tweet.fields': 'created_at', 'max_results':'100', }
 
 def create_headers(bearer_token):
