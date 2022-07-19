@@ -1,5 +1,5 @@
 # text-mining -- 
-Text Mining Algorithms then dumping the tweets on a Json file then using python conversion algorithmns to dump them into a readable Format in CSV.
+Use Text Mining Algorithms then dump the tweets on a Json file then using python conversion algorithmns to dump them into a readable Format in CSV.
 Then use R programming to clean and analyze said data to your specific requirement.
 Modfiy the #query_params fields for the output you want. check Twitter developer documentation for details.
 
